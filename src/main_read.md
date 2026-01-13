@@ -2,9 +2,12 @@
 
 * Buradaki amacımız gündelik dile yakın bir şekilde söz dizimi oluşturarak çıktı olarak html söz dizimi elde etmekti.
 
+```lisp
 (with-html
-  (body "Bu bir gövde metnidir")
-  (footer "2024 DSL Denemesi"))
+(body "Bu bir gövde metnidir")
+(footer "2024 DSL Denemesi"))
+```
+
 
 * Çıktı şu şekilde olacak:
 ```html
